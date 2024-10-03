@@ -17,7 +17,6 @@ for producto in productos:
         producto_encontrado = True
         break
 
-# Si el producto no está en la lista
 if not producto_encontrado:
     print("Lo sentimos, no vendemos o no encontramos lo que busca, verifique y digite denuevo.")
 nombre_producto = input("Ingrese el nombre del producto para consultar su precio: ")
@@ -30,6 +29,5 @@ for producto in productos:
         producto_encontrado = True
         break
 
-# Si el producto no está en la lista
 if not producto_encontrado:
     print("Lo sentimos, no vendemos o no encontramos lo que busca, verifique y digite denuevo.")
